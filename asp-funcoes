@@ -1,0 +1,83 @@
+Fonte : https://www.devmedia.com.br/asp-lista-de-funcoes/22370
+
+Abs() - Devolve o valor absoluto de um número
+Array() - Define um conjunto de valores identicos. O 1º indice tem o valor 0(zero)
+Asc() - Devolve e valor ASCII de um caracter
+Atn() - Devolve o arco-tangente de um numero
+CBool() - Devolve True ou False de uma expressão
+CByte() - Devolve o valor Byte de um numero
+CCur() - Devolve o valor na moeda currente
+CDate() - Devolve o valor da data corrente
+CDbl() - Devolve um valor em tipo DOULBLE
+Chr() - Devolve o caracter de um valor ASCII
+CInt() - Devolve um valor INTEIRO
+CLong() - Devolve um valor LONGO
+Cos() - Devolve o coseno de um angulo
+CreateObject() - Cria uma referencia a um objecto externo
+Csng() - Devolve um valor tipo SINGLE
+Date() - Devolve a data do servidor
+DateAdd() - Devolve a data + N dias
+DateDiff() - Devolve a diferença entre duas datas
+DatePart() - Devolve, a partir de uma certa data, a altura do ano
+DateSerial() - Devolve uma data para determinado Dia, Mes, Ano
+DateValue() - Devolve uma data válida
+Day() - Devolve o dia de uma data
+Exp() - Devolve o exponencial de um valor
+Filter() - Devolve o valor de uma determinada pesquisa num Array
+Fix() - Devolve o inteiro de um numero
+FormatCurrency() - Devolve um valor na moeda corrente
+FormatDateTime() - Devolve um valor na data corrente
+FormatNumber() - Devolve um numero em determinado formato
+FormatPercent() - Devolve a percentagem de um quociente
+GetObject() - Devolve e referencia de um objecto
+Hex() - Devolve o valor hexadecimal
+InStr() - Devolve a posição de uma string dentro de outra a contar do inicio
+InStrRev() - Devolve a posição de uma string dentro de outra a contar do fim
+IsArray() - Devolve True ou False sobre uma variavel array (Tabela)
+IsDate() - Devolve True ou False sobre se uma variavel é uma data valida ou não
+IsEmpty() - Devolve True ou False se uma variavel está vazia ou não
+IsNull() - Devolve True ou False se uma variavel é nula ou não
+IsNumeric() - Devolve True ou False se uma variável é numérica ou não
+IsObject() - Devolve True ou False se é um objecto válido ou não
+Join() - Devolve uma variável concatenando uma variável array
+LBound() - Devolve o menor valor da dimensão de um array
+LCase() - Devolve uma strig em minusculas
+Left() - Devolve um certo numero de caracteres á esquerda de uma stringg
+Len() - Devolve o comprimento de uma string
+Log() - Devolve o logaritmo de um numero
+LTrim() - Devolve uma string eliminando os espaços á esquerda
+Mid() - Devolve um numero de caracteres a partir de uma dada posição
+Minute() - Devolve o minuto de uma dada hora
+Month() - Devolve o mes de uma data
+Monthdate() - Devolve o nome do mes correspondente a uma data
+Now() - Devolve o data e a hora corrente
+Oct() - Devolve o valor octal de um numero
+Replace() - Devolve uma string alterada por outra
+RGB() - Devolve o valor de uma cor (R)=Red/Vermelho (G)=Green/Verde (B)=Blue/Azul
+Right() - Devolve um numero de caracteres á direita de uma string
+Round() - Devolve valores numéricos arredondados
+Second() - Devolve os segundos da hora corrente
+Sgn() - Devolve o sinal de um valor (1=positivo) (0=zero) (-1=negativo)
+Sin() - Devolve o seno de um angulo
+Space() - Devolve / introduz um numero de espaços entre duas strings
+Split() - Devolve um array atraves de uma string
+Sqr() - Devolve a raiz quadrada de um numero
+StrComp() - Devolve 1 ou -1 conforme as strigns são iguais ou diferentes
+StrReverse() - Devolve uma string invertendo os caracteres
+String() - Devolve um caracter repetido N vezes
+Tan() - Devolve a tangente de um numero
+Time() - Devolve a hora do sistema
+Timevalue() - Devolve uma hora válida
+TypeName() - Devolve o tipo de variável
+UBound() - Devolve o maior valor da dimensão de um array
+Ucase() - Devolve uma string em maiusculas
+
+VarType()
+Devolve um numero correspondente ao tipo de variável
+0-Vazia ; 1-Nula ; 2-Integer ; 3-Long ; 4-Single ; 5-Double ; 6-Currency
+7-Data ; 8-String ; 9-Object ; 10-Error ; 11-Booleano ; 12-Variant ; 13-DAO
+17-Byte ; 8192-Array
+
+Weekday() - Devolve o dia da semana, um numero (1=Domingo), etc.
+WeekDayName() - Devolve por extenso o dia da semana
+Year() - Devolve o ano da data
