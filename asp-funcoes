@@ -72,8 +72,7 @@ TypeName() - Devolve o tipo de variável
 UBound() - Devolve o maior valor da dimensão de um array
 Ucase() - Devolve uma string em maiusculas
 
-VarType()
-Devolve um numero correspondente ao tipo de variável
+VarType() - Devolve um numero correspondente ao tipo de variável
 0-Vazia ; 1-Nula ; 2-Integer ; 3-Long ; 4-Single ; 5-Double ; 6-Currency
 7-Data ; 8-String ; 9-Object ; 10-Error ; 11-Booleano ; 12-Variant ; 13-DAO
 17-Byte ; 8192-Array
