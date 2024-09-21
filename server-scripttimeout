@@ -1,1 +1,5 @@
 Server.ScriptTimeout=200
+
+<%
+   Response.Write(Server.ScriptTimeout)
+%> 
