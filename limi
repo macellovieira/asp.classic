@@ -1,0 +1,12 @@
+
+Response.Buffer = False
+
+While Not Obj_RecordSet.EOF
+
+      Resposta.flush
+
+Wend
+
+Response.Buffer = True
+
+https://stackoverflow.com/questions/4968006/response-buffer-limit-exceeded
