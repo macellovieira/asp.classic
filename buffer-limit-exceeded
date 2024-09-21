@@ -1,5 +1,5 @@
 
-Response.Buffer = False
+Response.Buffer = False ' inico asp
 
 While Not Obj_RecordSet.EOF
 
@@ -7,6 +7,6 @@ While Not Obj_RecordSet.EOF
 
 Wend
 
-Response.Buffer = True
+Response.Buffer = True ' fim asp
 
 https://stackoverflow.com/questions/4968006/response-buffer-limit-exceeded
