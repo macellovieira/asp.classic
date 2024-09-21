@@ -1,0 +1,4 @@
+https://www.codeproject.com/Questions/371836/Response-Buffer-Limit-Exceeded-in-asp
+
+Response.ContentType = "application/pdf"
+Response.BinaryWrite rs("column name").
