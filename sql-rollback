@@ -1,0 +1,38 @@
+<%
+
+Dim conn, strConn
+Set conn = Server.CreateObject("ADODB.Connection")
+
+strConn = "DRIVER={SQL Server};SERVER=seu_servidor;UID=usuario;PWD=senha;DATABASE=seu_banco;"
+
+conn.Open strConn
+
+' Ativa o tratamento de erros do VBScript
+  On Error Resume Next
+
+' Inicia a transação
+  conn.BeginTrans
+
+
+' Executa comandos SQL
+  conn.Execute "INSERT INTO Clientes (Nome) VALUES ('Teste 1')"
+  conn.Execute "INSERT INTO Clientes (Nome) VALUES ('Teste 2')"
+
+' Verifica se ocorreu algum erro
+
+  If Err.Number <> 0 Then
+      ' Deu erro: desfaz todas as alterações feitas na transação
+        conn.RollbackTrans
+        Response.Write "Erro ocorrido! Transação desfeita (Rollback)."
+  Else
+      ' Tudo certo: confirma as alterações no banco de dados
+        conn.CommitTrans
+        Response.Write "Operação realizada com sucesso (Commit)!"
+  End If
+
+' Reseta o tratamento de erro e fecha a conexão
+  On Error GoTo 0
+  conn.Close
+  Set conn = Nothing
+
+%>
